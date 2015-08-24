@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<user>
+    <id><![CDATA[00001]]></id>	
+    <userName>zhangsan</userName>	
+    <age>28</age> 
+    <headImageUrl>http://pica.nipic.com/2007-11-09/2007119124413448_2.jpg</headImageUrl> 
+    <address>
+		<id>12345</id>
+		<city>上海</city>
+    </address>
+</user>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7701" systemVersion="14E46" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="JDPoem" representedClassName="JDPoem" syncable="YES">
+        <attribute name="content" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="favorite" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <relationship name="poet" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="JDPoet" inverseName="poems" inverseEntity="JDPoet" syncable="YES"/>
+    </entity>
+    <entity name="JDPoet" representedClassName="JDPoet" syncable="YES">
+        <attribute name="age" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="poems" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="JDPoem" inverseName="poet" inverseEntity="JDPoem" syncable="YES"/>
+    </entity>
+    <entity name="JDTest" representedClassName="JDTest" syncable="YES">
+        <attribute name="age" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="JDUser" representedClassName="JDUser" syncable="YES">
+        <attribute name="address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="age" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="JDPoem" positionX="160" positionY="192" width="128" height="88"/>
+        <element name="JDPoet" positionX="160" positionY="192" width="128" height="90"/>
+        <element name="JDUser" positionX="160" positionY="192" width="128" height="88"/>
+        <element name="JDTest" positionX="171" positionY="225" width="128" height="75"/>
+    </elements>
+</model>

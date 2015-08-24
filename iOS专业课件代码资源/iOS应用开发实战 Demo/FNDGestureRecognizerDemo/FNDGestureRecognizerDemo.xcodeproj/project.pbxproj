@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49E87FBB1616F5AC0060A9AA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49E87FBA1616F5AC0060A9AA /* UIKit.framework */; };
+		49E87FBD1616F5AC0060A9AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49E87FBC1616F5AC0060A9AA /* Foundation.framework */; };
+		49E87FBF1616F5AC0060A9AA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49E87FBE1616F5AC0060A9AA /* CoreGraphics.framework */; };
+		49E87FC51616F5AC0060A9AA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 49E87FC31616F5AC0060A9AA /* InfoPlist.strings */; };
+		49E87FC71616F5AC0060A9AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E87FC61616F5AC0060A9AA /* main.m */; };
+		49E87FCB1616F5AC0060A9AA /* FNDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E87FCA1616F5AC0060A9AA /* FNDAppDelegate.m */; };
+		49E87FCD1616F5AC0060A9AA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 49E87FCC1616F5AC0060A9AA /* Default.png */; };
+		49E87FCF1616F5AC0060A9AA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49E87FCE1616F5AC0060A9AA /* Default@2x.png */; };
+		49E87FD11616F5AC0060A9AA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 49E87FD01616F5AC0060A9AA /* Default-568h@2x.png */; };
+		49E87FD41616F5AC0060A9AA /* FNDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E87FD31616F5AC0060A9AA /* FNDViewController.m */; };
+		49E87FD71616F5AC0060A9AA /* FNDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49E87FD51616F5AC0060A9AA /* FNDViewController.xib */; };
+		49E87FDE1616F66D0060A9AA /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 49E87FDD1616F66D0060A9AA /* logo.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		49E87FB61616F5AC0060A9AA /* FNDGestureRecognizerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FNDGestureRecognizerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49E87FBA1616F5AC0060A9AA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		49E87FBC1616F5AC0060A9AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		49E87FBE1616F5AC0060A9AA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		49E87FC21616F5AC0060A9AA /* FNDGestureRecognizerDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FNDGestureRecognizerDemo-Info.plist"; sourceTree = "<group>"; };
+		49E87FC41616F5AC0060A9AA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		49E87FC61616F5AC0060A9AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		49E87FC81616F5AC0060A9AA /* FNDGestureRecognizerDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FNDGestureRecognizerDemo-Prefix.pch"; sourceTree = "<group>"; };
+		49E87FC91616F5AC0060A9AA /* FNDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FNDAppDelegate.h; sourceTree = "<group>"; };
+		49E87FCA1616F5AC0060A9AA /* FNDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FNDAppDelegate.m; sourceTree = "<group>"; };
+		49E87FCC1616F5AC0060A9AA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		49E87FCE1616F5AC0060A9AA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		49E87FD01616F5AC0060A9AA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		49E87FD21616F5AC0060A9AA /* FNDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FNDViewController.h; sourceTree = "<group>"; };
+		49E87FD31616F5AC0060A9AA /* FNDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FNDViewController.m; sourceTree = "<group>"; };
+		49E87FD61616F5AC0060A9AA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FNDViewController.xib; sourceTree = "<group>"; };
+		49E87FDD1616F66D0060A9AA /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49E87FB31616F5AC0060A9AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49E87FBB1616F5AC0060A9AA /* UIKit.framework in Frameworks */,
+				49E87FBD1616F5AC0060A9AA /* Foundation.framework in Frameworks */,
+				49E87FBF1616F5AC0060A9AA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49E87FAB1616F5AC0060A9AA = {
+			isa = PBXGroup;
+			children = (
+				49E87FC01616F5AC0060A9AA /* FNDGestureRecognizerDemo */,
+				49E87FB91616F5AC0060A9AA /* Frameworks */,
+				49E87FB71616F5AC0060A9AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49E87FB71616F5AC0060A9AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49E87FB61616F5AC0060A9AA /* FNDGestureRecognizerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49E87FB91616F5AC0060A9AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				49E87FBA1616F5AC0060A9AA /* UIKit.framework */,
+				49E87FBC1616F5AC0060A9AA /* Foundation.framework */,
+				49E87FBE1616F5AC0060A9AA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		49E87FC01616F5AC0060A9AA /* FNDGestureRecognizerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				49E87FDD1616F66D0060A9AA /* logo.png */,
+				49E87FC91616F5AC0060A9AA /* FNDAppDelegate.h */,
+				49E87FCA1616F5AC0060A9AA /* FNDAppDelegate.m */,
+				49E87FD21616F5AC0060A9AA /* FNDViewController.h */,
+				49E87FD31616F5AC0060A9AA /* FNDViewController.m */,
+				49E87FD51616F5AC0060A9AA /* FNDViewController.xib */,
+				49E87FC11616F5AC0060A9AA /* Supporting Files */,
+			);
+			path = FNDGestureRecognizerDemo;
+			sourceTree = "<group>";
+		};
+		49E87FC11616F5AC0060A9AA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49E87FC21616F5AC0060A9AA /* FNDGestureRecognizerDemo-Info.plist */,
+				49E87FC31616F5AC0060A9AA /* InfoPlist.strings */,
+				49E87FC61616F5AC0060A9AA /* main.m */,
+				49E87FC81616F5AC0060A9AA /* FNDGestureRecognizerDemo-Prefix.pch */,
+				49E87FCC1616F5AC0060A9AA /* Default.png */,
+				49E87FCE1616F5AC0060A9AA /* Default@2x.png */,
+				49E87FD01616F5AC0060A9AA /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49E87FB51616F5AC0060A9AA /* FNDGestureRecognizerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49E87FDA1616F5AC0060A9AA /* Build configuration list for PBXNativeTarget "FNDGestureRecognizerDemo" */;
+			buildPhases = (
+				49E87FB21616F5AC0060A9AA /* Sources */,
+				49E87FB31616F5AC0060A9AA /* Frameworks */,
+				49E87FB41616F5AC0060A9AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FNDGestureRecognizerDemo;
+			productName = FNDGestureRecognizerDemo;
+			productReference = 49E87FB61616F5AC0060A9AA /* FNDGestureRecognizerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49E87FAD1616F5AC0060A9AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FND;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "duan song";
+			};
+			buildConfigurationList = 49E87FB01616F5AC0060A9AA /* Build configuration list for PBXProject "FNDGestureRecognizerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 49E87FAB1616F5AC0060A9AA;
+			productRefGroup = 49E87FB71616F5AC0060A9AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49E87FB51616F5AC0060A9AA /* FNDGestureRecognizerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49E87FB41616F5AC0060A9AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49E87FC51616F5AC0060A9AA /* InfoPlist.strings in Resources */,
+				49E87FCD1616F5AC0060A9AA /* Default.png in Resources */,
+				49E87FCF1616F5AC0060A9AA /* Default@2x.png in Resources */,
+				49E87FD11616F5AC0060A9AA /* Default-568h@2x.png in Resources */,
+				49E87FD71616F5AC0060A9AA /* FNDViewController.xib in Resources */,
+				49E87FDE1616F66D0060A9AA /* logo.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49E87FB21616F5AC0060A9AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49E87FC71616F5AC0060A9AA /* main.m in Sources */,
+				49E87FCB1616F5AC0060A9AA /* FNDAppDelegate.m in Sources */,
+				49E87FD41616F5AC0060A9AA /* FNDViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		49E87FC31616F5AC0060A9AA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49E87FC41616F5AC0060A9AA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		49E87FD51616F5AC0060A9AA /* FNDViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49E87FD61616F5AC0060A9AA /* en */,
+			);
+			name = FNDViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49E87FD81616F5AC0060A9AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		49E87FD91616F5AC0060A9AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49E87FDB1616F5AC0060A9AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: song duan (5H6BPTSQ8F)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: song duan (5H6BPTSQ8F)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FNDGestureRecognizerDemo/FNDGestureRecognizerDemo-Prefix.pch";
+				INFOPLIST_FILE = "FNDGestureRecognizerDemo/FNDGestureRecognizerDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "57f34cba-ad7f-4048-8520-5f06b9e04b08";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "57f34cba-ad7f-4048-8520-5f06b9e04b08";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		49E87FDC1616F5AC0060A9AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: song duan (5H6BPTSQ8F)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FNDGestureRecognizerDemo/FNDGestureRecognizerDemo-Prefix.pch";
+				INFOPLIST_FILE = "FNDGestureRecognizerDemo/FNDGestureRecognizerDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "57f34cba-ad7f-4048-8520-5f06b9e04b08";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49E87FB01616F5AC0060A9AA /* Build configuration list for PBXProject "FNDGestureRecognizerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49E87FD81616F5AC0060A9AA /* Debug */,
+				49E87FD91616F5AC0060A9AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49E87FDA1616F5AC0060A9AA /* Build configuration list for PBXNativeTarget "FNDGestureRecognizerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49E87FDB1616F5AC0060A9AA /* Debug */,
+				49E87FDC1616F5AC0060A9AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49E87FAD1616F5AC0060A9AA /* Project object */;
+}

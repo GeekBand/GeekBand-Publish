@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		491C0860175F0CD60032ECC5 /* JDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 491C0855175F0CD60032ECC5 /* JDAppDelegate.m */; };
+		491C0861175F0CD60032ECC5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 491C0857175F0CD60032ECC5 /* Default-568h@2x.png */; };
+		491C0862175F0CD60032ECC5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 491C0858175F0CD60032ECC5 /* Default.png */; };
+		491C0863175F0CD60032ECC5 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 491C0859175F0CD60032ECC5 /* Default@2x.png */; };
+		491C0864175F0CD60032ECC5 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 491C085A175F0CD60032ECC5 /* icon.png */; };
+		491C0865175F0CD60032ECC5 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 491C085B175F0CD60032ECC5 /* icon@2x.png */; };
+		491C0867175F0CD60032ECC5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 491C085F175F0CD60032ECC5 /* main.m */; };
+		495EB58D175DE5D700B9DC29 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 495EB58C175DE5D700B9DC29 /* UIKit.framework */; };
+		495EB58F175DE5D700B9DC29 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 495EB58E175DE5D700B9DC29 /* Foundation.framework */; };
+		495EB591175DE5D700B9DC29 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 495EB590175DE5D700B9DC29 /* CoreGraphics.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		491C0854175F0CD60032ECC5 /* JDAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDAppDelegate.h; sourceTree = "<group>"; };
+		491C0855175F0CD60032ECC5 /* JDAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDAppDelegate.m; sourceTree = "<group>"; };
+		491C0857175F0CD60032ECC5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		491C0858175F0CD60032ECC5 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		491C0859175F0CD60032ECC5 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		491C085A175F0CD60032ECC5 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		491C085B175F0CD60032ECC5 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		491C085D175F0CD60032ECC5 /* JDAPNS-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "JDAPNS-Info.plist"; sourceTree = "<group>"; };
+		491C085E175F0CD60032ECC5 /* JDAPNS-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JDAPNS-Prefix.pch"; sourceTree = "<group>"; };
+		491C085F175F0CD60032ECC5 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		495EB589175DE5D700B9DC29 /* JDAPNS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JDAPNS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		495EB58C175DE5D700B9DC29 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		495EB58E175DE5D700B9DC29 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		495EB590175DE5D700B9DC29 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		495EB586175DE5D700B9DC29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				495EB58D175DE5D700B9DC29 /* UIKit.framework in Frameworks */,
+				495EB58F175DE5D700B9DC29 /* Foundation.framework in Frameworks */,
+				495EB591175DE5D700B9DC29 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		491C0853175F0CD60032ECC5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				491C0854175F0CD60032ECC5 /* JDAppDelegate.h */,
+				491C0855175F0CD60032ECC5 /* JDAppDelegate.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		491C0856175F0CD60032ECC5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				491C0857175F0CD60032ECC5 /* Default-568h@2x.png */,
+				491C0858175F0CD60032ECC5 /* Default.png */,
+				491C0859175F0CD60032ECC5 /* Default@2x.png */,
+				491C085A175F0CD60032ECC5 /* icon.png */,
+				491C085B175F0CD60032ECC5 /* icon@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		491C085C175F0CD60032ECC5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				491C085D175F0CD60032ECC5 /* JDAPNS-Info.plist */,
+				491C085E175F0CD60032ECC5 /* JDAPNS-Prefix.pch */,
+				491C085F175F0CD60032ECC5 /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		495EB580175DE5D700B9DC29 = {
+			isa = PBXGroup;
+			children = (
+				495EB592175DE5D700B9DC29 /* JDAPNS */,
+				495EB58B175DE5D700B9DC29 /* Frameworks */,
+				495EB58A175DE5D700B9DC29 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		495EB58A175DE5D700B9DC29 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				495EB589175DE5D700B9DC29 /* JDAPNS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		495EB58B175DE5D700B9DC29 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				495EB58C175DE5D700B9DC29 /* UIKit.framework */,
+				495EB58E175DE5D700B9DC29 /* Foundation.framework */,
+				495EB590175DE5D700B9DC29 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		495EB592175DE5D700B9DC29 /* JDAPNS */ = {
+			isa = PBXGroup;
+			children = (
+				491C0853175F0CD60032ECC5 /* Classes */,
+				491C0856175F0CD60032ECC5 /* Resources */,
+				491C085C175F0CD60032ECC5 /* Supporting Files */,
+			);
+			path = JDAPNS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		495EB588175DE5D700B9DC29 /* JDAPNS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 495EB5A6175DE5D700B9DC29 /* Build configuration list for PBXNativeTarget "JDAPNS" */;
+			buildPhases = (
+				495EB585175DE5D700B9DC29 /* Sources */,
+				495EB586175DE5D700B9DC29 /* Frameworks */,
+				495EB587175DE5D700B9DC29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JDAPNS;
+			productName = JDAPNS;
+			productReference = 495EB589175DE5D700B9DC29 /* JDAPNS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		495EB581175DE5D700B9DC29 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JD;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = duansong;
+			};
+			buildConfigurationList = 495EB584175DE5D700B9DC29 /* Build configuration list for PBXProject "JDAPNS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 495EB580175DE5D700B9DC29;
+			productRefGroup = 495EB58A175DE5D700B9DC29 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				495EB588175DE5D700B9DC29 /* JDAPNS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		495EB587175DE5D700B9DC29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				491C0861175F0CD60032ECC5 /* Default-568h@2x.png in Resources */,
+				491C0862175F0CD60032ECC5 /* Default.png in Resources */,
+				491C0863175F0CD60032ECC5 /* Default@2x.png in Resources */,
+				491C0864175F0CD60032ECC5 /* icon.png in Resources */,
+				491C0865175F0CD60032ECC5 /* icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		495EB585175DE5D700B9DC29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				491C0860175F0CD60032ECC5 /* JDAppDelegate.m in Sources */,
+				491C0867175F0CD60032ECC5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		495EB5A4175DE5D700B9DC29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		495EB5A5175DE5D700B9DC29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		495EB5A7175DE5D700B9DC29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: song duan (5H6BPTSQ8F)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: song duan (5H6BPTSQ8F)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JDAPNS/Supporting Files/JDAPNS-Prefix.pch";
+				INFOPLIST_FILE = "JDAPNS/Supporting Files/JDAPNS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "E4798DE3-8921-406D-9E65-5FA319B96D46";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "E4798DE3-8921-406D-9E65-5FA319B96D46";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		495EB5A8175DE5D700B9DC29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JDAPNS/Supporting Files/JDAPNS-Prefix.pch";
+				INFOPLIST_FILE = "JDAPNS/Supporting Files/JDAPNS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		495EB584175DE5D700B9DC29 /* Build configuration list for PBXProject "JDAPNS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				495EB5A4175DE5D700B9DC29 /* Debug */,
+				495EB5A5175DE5D700B9DC29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		495EB5A6175DE5D700B9DC29 /* Build configuration list for PBXNativeTarget "JDAPNS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				495EB5A7175DE5D700B9DC29 /* Debug */,
+				495EB5A8175DE5D700B9DC29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 495EB581175DE5D700B9DC29 /* Project object */;
+}

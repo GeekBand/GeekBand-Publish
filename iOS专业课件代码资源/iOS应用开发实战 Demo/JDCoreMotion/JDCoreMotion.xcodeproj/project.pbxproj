@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4929DADC1760869B001755AC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4929DADB1760869B001755AC /* UIKit.framework */; };
+		4929DADE1760869B001755AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4929DADD1760869B001755AC /* Foundation.framework */; };
+		4929DAE01760869B001755AC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4929DADF1760869B001755AC /* CoreGraphics.framework */; };
+		4929DB1E1760884D001755AC /* JDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4929DAFB1760884D001755AC /* JDAppDelegate.m */; };
+		4929DB1F1760884D001755AC /* JDMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4929DAFE1760884D001755AC /* JDMainViewController.m */; };
+		4929DB201760884D001755AC /* bg1-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4929DB011760884D001755AC /* bg1-568h@2x.png */; };
+		4929DB211760884D001755AC /* bg1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4929DB021760884D001755AC /* bg1.png */; };
+		4929DB221760884D001755AC /* bg1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4929DB031760884D001755AC /* bg1@2x.png */; };
+		4929DB231760884D001755AC /* bg2-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4929DB041760884D001755AC /* bg2-568h@2x.png */; };
+		4929DB241760884D001755AC /* bg2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4929DB051760884D001755AC /* bg2.png */; };
+		4929DB251760884D001755AC /* bg2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4929DB061760884D001755AC /* bg2@2x.png */; };
+		4929DB261760884D001755AC /* bg3-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4929DB071760884D001755AC /* bg3-568h@2x.png */; };
+		4929DB271760884D001755AC /* bg3.png in Resources */ = {isa = PBXBuildFile; fileRef = 4929DB081760884D001755AC /* bg3.png */; };
+		4929DB281760884D001755AC /* bg3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4929DB091760884D001755AC /* bg3@2x.png */; };
+		4929DB291760884D001755AC /* bg4-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4929DB0A1760884D001755AC /* bg4-568h@2x.png */; };
+		4929DB2A1760884D001755AC /* bg4.png in Resources */ = {isa = PBXBuildFile; fileRef = 4929DB0B1760884D001755AC /* bg4.png */; };
+		4929DB2B1760884D001755AC /* bg4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4929DB0C1760884D001755AC /* bg4@2x.png */; };
+		4929DB2C1760884D001755AC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4929DB0D1760884D001755AC /* Default-568h@2x.png */; };
+		4929DB2D1760884D001755AC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4929DB0E1760884D001755AC /* Default.png */; };
+		4929DB2E1760884D001755AC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4929DB0F1760884D001755AC /* Default@2x.png */; };
+		4929DB2F1760884D001755AC /* four.png in Resources */ = {isa = PBXBuildFile; fileRef = 4929DB101760884D001755AC /* four.png */; };
+		4929DB301760884D001755AC /* four@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4929DB111760884D001755AC /* four@2x.png */; };
+		4929DB311760884D001755AC /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4929DB121760884D001755AC /* icon.png */; };
+		4929DB321760884D001755AC /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4929DB131760884D001755AC /* icon@2x.png */; };
+		4929DB331760884D001755AC /* one.png in Resources */ = {isa = PBXBuildFile; fileRef = 4929DB141760884D001755AC /* one.png */; };
+		4929DB341760884D001755AC /* one@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4929DB151760884D001755AC /* one@2x.png */; };
+		4929DB351760884D001755AC /* three.png in Resources */ = {isa = PBXBuildFile; fileRef = 4929DB161760884D001755AC /* three.png */; };
+		4929DB361760884D001755AC /* three@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4929DB171760884D001755AC /* three@2x.png */; };
+		4929DB371760884D001755AC /* two.png in Resources */ = {isa = PBXBuildFile; fileRef = 4929DB181760884D001755AC /* two.png */; };
+		4929DB381760884D001755AC /* two@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4929DB191760884D001755AC /* two@2x.png */; };
+		4929DB3A1760884D001755AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4929DB1D1760884D001755AC /* main.m */; };
+		4929DB401760897F001755AC /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4929DB3F1760897F001755AC /* CoreMotion.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4929DAD81760869B001755AC /* JDCoreMotion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JDCoreMotion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4929DADB1760869B001755AC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4929DADD1760869B001755AC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4929DADF1760869B001755AC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4929DAFA1760884D001755AC /* JDAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDAppDelegate.h; sourceTree = "<group>"; };
+		4929DAFB1760884D001755AC /* JDAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDAppDelegate.m; sourceTree = "<group>"; };
+		4929DAFD1760884D001755AC /* JDMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDMainViewController.h; sourceTree = "<group>"; };
+		4929DAFE1760884D001755AC /* JDMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDMainViewController.m; sourceTree = "<group>"; };
+		4929DB011760884D001755AC /* bg1-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg1-568h@2x.png"; sourceTree = "<group>"; };
+		4929DB021760884D001755AC /* bg1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg1.png; sourceTree = "<group>"; };
+		4929DB031760884D001755AC /* bg1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg1@2x.png"; sourceTree = "<group>"; };
+		4929DB041760884D001755AC /* bg2-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg2-568h@2x.png"; sourceTree = "<group>"; };
+		4929DB051760884D001755AC /* bg2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg2.png; sourceTree = "<group>"; };
+		4929DB061760884D001755AC /* bg2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg2@2x.png"; sourceTree = "<group>"; };
+		4929DB071760884D001755AC /* bg3-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg3-568h@2x.png"; sourceTree = "<group>"; };
+		4929DB081760884D001755AC /* bg3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg3.png; sourceTree = "<group>"; };
+		4929DB091760884D001755AC /* bg3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg3@2x.png"; sourceTree = "<group>"; };
+		4929DB0A1760884D001755AC /* bg4-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg4-568h@2x.png"; sourceTree = "<group>"; };
+		4929DB0B1760884D001755AC /* bg4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg4.png; sourceTree = "<group>"; };
+		4929DB0C1760884D001755AC /* bg4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg4@2x.png"; sourceTree = "<group>"; };
+		4929DB0D1760884D001755AC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		4929DB0E1760884D001755AC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		4929DB0F1760884D001755AC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		4929DB101760884D001755AC /* four.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = four.png; sourceTree = "<group>"; };
+		4929DB111760884D001755AC /* four@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "four@2x.png"; sourceTree = "<group>"; };
+		4929DB121760884D001755AC /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		4929DB131760884D001755AC /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		4929DB141760884D001755AC /* one.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = one.png; sourceTree = "<group>"; };
+		4929DB151760884D001755AC /* one@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "one@2x.png"; sourceTree = "<group>"; };
+		4929DB161760884D001755AC /* three.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = three.png; sourceTree = "<group>"; };
+		4929DB171760884D001755AC /* three@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "three@2x.png"; sourceTree = "<group>"; };
+		4929DB181760884D001755AC /* two.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = two.png; sourceTree = "<group>"; };
+		4929DB191760884D001755AC /* two@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "two@2x.png"; sourceTree = "<group>"; };
+		4929DB1B1760884D001755AC /* JDCoreMotion-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "JDCoreMotion-Info.plist"; sourceTree = "<group>"; };
+		4929DB1C1760884D001755AC /* JDCoreMotion-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JDCoreMotion-Prefix.pch"; sourceTree = "<group>"; };
+		4929DB1D1760884D001755AC /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4929DB3F1760897F001755AC /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4929DAD51760869B001755AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4929DB401760897F001755AC /* CoreMotion.framework in Frameworks */,
+				4929DADC1760869B001755AC /* UIKit.framework in Frameworks */,
+				4929DADE1760869B001755AC /* Foundation.framework in Frameworks */,
+				4929DAE01760869B001755AC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4929DACF1760869B001755AC = {
+			isa = PBXGroup;
+			children = (
+				4929DAE11760869B001755AC /* JDCoreMotion */,
+				4929DADA1760869B001755AC /* Frameworks */,
+				4929DAD91760869B001755AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4929DAD91760869B001755AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4929DAD81760869B001755AC /* JDCoreMotion.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4929DADA1760869B001755AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4929DB3F1760897F001755AC /* CoreMotion.framework */,
+				4929DADB1760869B001755AC /* UIKit.framework */,
+				4929DADD1760869B001755AC /* Foundation.framework */,
+				4929DADF1760869B001755AC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4929DAE11760869B001755AC /* JDCoreMotion */ = {
+			isa = PBXGroup;
+			children = (
+				4929DAF81760884D001755AC /* Classes */,
+				4929DAFF1760884D001755AC /* Resources */,
+				4929DB1A1760884D001755AC /* Supporting Files */,
+			);
+			path = JDCoreMotion;
+			sourceTree = "<group>";
+		};
+		4929DAF81760884D001755AC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4929DAF91760884D001755AC /* AppDelegate */,
+				4929DAFC1760884D001755AC /* Controllers */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		4929DAF91760884D001755AC /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				4929DAFA1760884D001755AC /* JDAppDelegate.h */,
+				4929DAFB1760884D001755AC /* JDAppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		4929DAFC1760884D001755AC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4929DAFD1760884D001755AC /* JDMainViewController.h */,
+				4929DAFE1760884D001755AC /* JDMainViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4929DAFF1760884D001755AC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4929DB001760884D001755AC /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4929DB001760884D001755AC /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				4929DB011760884D001755AC /* bg1-568h@2x.png */,
+				4929DB021760884D001755AC /* bg1.png */,
+				4929DB031760884D001755AC /* bg1@2x.png */,
+				4929DB041760884D001755AC /* bg2-568h@2x.png */,
+				4929DB051760884D001755AC /* bg2.png */,
+				4929DB061760884D001755AC /* bg2@2x.png */,
+				4929DB071760884D001755AC /* bg3-568h@2x.png */,
+				4929DB081760884D001755AC /* bg3.png */,
+				4929DB091760884D001755AC /* bg3@2x.png */,
+				4929DB0A1760884D001755AC /* bg4-568h@2x.png */,
+				4929DB0B1760884D001755AC /* bg4.png */,
+				4929DB0C1760884D001755AC /* bg4@2x.png */,
+				4929DB0D1760884D001755AC /* Default-568h@2x.png */,
+				4929DB0E1760884D001755AC /* Default.png */,
+				4929DB0F1760884D001755AC /* Default@2x.png */,
+				4929DB101760884D001755AC /* four.png */,
+				4929DB111760884D001755AC /* four@2x.png */,
+				4929DB121760884D001755AC /* icon.png */,
+				4929DB131760884D001755AC /* icon@2x.png */,
+				4929DB141760884D001755AC /* one.png */,
+				4929DB151760884D001755AC /* one@2x.png */,
+				4929DB161760884D001755AC /* three.png */,
+				4929DB171760884D001755AC /* three@2x.png */,
+				4929DB181760884D001755AC /* two.png */,
+				4929DB191760884D001755AC /* two@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		4929DB1A1760884D001755AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4929DB1B1760884D001755AC /* JDCoreMotion-Info.plist */,
+				4929DB1C1760884D001755AC /* JDCoreMotion-Prefix.pch */,
+				4929DB1D1760884D001755AC /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4929DAD71760869B001755AC /* JDCoreMotion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4929DAF51760869B001755AC /* Build configuration list for PBXNativeTarget "JDCoreMotion" */;
+			buildPhases = (
+				4929DAD41760869B001755AC /* Sources */,
+				4929DAD51760869B001755AC /* Frameworks */,
+				4929DAD61760869B001755AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JDCoreMotion;
+			productName = JDCoreMotion;
+			productReference = 4929DAD81760869B001755AC /* JDCoreMotion.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4929DAD01760869B001755AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JD;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = duansong;
+			};
+			buildConfigurationList = 4929DAD31760869B001755AC /* Build configuration list for PBXProject "JDCoreMotion" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4929DACF1760869B001755AC;
+			productRefGroup = 4929DAD91760869B001755AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4929DAD71760869B001755AC /* JDCoreMotion */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4929DAD61760869B001755AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4929DB201760884D001755AC /* bg1-568h@2x.png in Resources */,
+				4929DB211760884D001755AC /* bg1.png in Resources */,
+				4929DB221760884D001755AC /* bg1@2x.png in Resources */,
+				4929DB231760884D001755AC /* bg2-568h@2x.png in Resources */,
+				4929DB241760884D001755AC /* bg2.png in Resources */,
+				4929DB251760884D001755AC /* bg2@2x.png in Resources */,
+				4929DB261760884D001755AC /* bg3-568h@2x.png in Resources */,
+				4929DB271760884D001755AC /* bg3.png in Resources */,
+				4929DB281760884D001755AC /* bg3@2x.png in Resources */,
+				4929DB291760884D001755AC /* bg4-568h@2x.png in Resources */,
+				4929DB2A1760884D001755AC /* bg4.png in Resources */,
+				4929DB2B1760884D001755AC /* bg4@2x.png in Resources */,
+				4929DB2C1760884D001755AC /* Default-568h@2x.png in Resources */,
+				4929DB2D1760884D001755AC /* Default.png in Resources */,
+				4929DB2E1760884D001755AC /* Default@2x.png in Resources */,
+				4929DB2F1760884D001755AC /* four.png in Resources */,
+				4929DB301760884D001755AC /* four@2x.png in Resources */,
+				4929DB311760884D001755AC /* icon.png in Resources */,
+				4929DB321760884D001755AC /* icon@2x.png in Resources */,
+				4929DB331760884D001755AC /* one.png in Resources */,
+				4929DB341760884D001755AC /* one@2x.png in Resources */,
+				4929DB351760884D001755AC /* three.png in Resources */,
+				4929DB361760884D001755AC /* three@2x.png in Resources */,
+				4929DB371760884D001755AC /* two.png in Resources */,
+				4929DB381760884D001755AC /* two@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4929DAD41760869B001755AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4929DB1E1760884D001755AC /* JDAppDelegate.m in Sources */,
+				4929DB1F1760884D001755AC /* JDMainViewController.m in Sources */,
+				4929DB3A1760884D001755AC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4929DAF31760869B001755AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4929DAF41760869B001755AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4929DAF61760869B001755AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: song duan (5H6BPTSQ8F)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: song duan (5H6BPTSQ8F)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JDCoreMotion/Supporting Files/JDCoreMotion-Prefix.pch";
+				INFOPLIST_FILE = "JDCoreMotion/Supporting Files/JDCoreMotion-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "57f34cba-ad7f-4048-8520-5f06b9e04b08";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4929DAF71760869B001755AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: song duan (5H6BPTSQ8F)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: song duan (5H6BPTSQ8F)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JDCoreMotion/Supporting Files/JDCoreMotion-Prefix.pch";
+				INFOPLIST_FILE = "JDCoreMotion/Supporting Files/JDCoreMotion-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "57f34cba-ad7f-4048-8520-5f06b9e04b08";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4929DAD31760869B001755AC /* Build configuration list for PBXProject "JDCoreMotion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4929DAF31760869B001755AC /* Debug */,
+				4929DAF41760869B001755AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4929DAF51760869B001755AC /* Build configuration list for PBXNativeTarget "JDCoreMotion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4929DAF61760869B001755AC /* Debug */,
+				4929DAF71760869B001755AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4929DAD01760869B001755AC /* Project object */;
+}
