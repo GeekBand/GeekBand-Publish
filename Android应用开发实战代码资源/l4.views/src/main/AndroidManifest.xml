@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.geekdev.l4views" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PaddingMarginActivity"
+            android:label="@string/title_activity_padding_margin" >
+        </activity>
+        <activity
+            android:name=".RelativeLayout"
+            android:label="@string/title_activity_relative_layout" >
+        </activity>
+        <activity
+            android:name=".ScrollViewActivity"
+            android:label="@string/title_activity_scroll_view" >
+        </activity>
+        <activity
+            android:name=".MultipleButtons"
+            android:label="@string/title_activity_multiple_buttons" >
+        </activity>
+        <activity
+            android:name=".KitchenSink"
+            android:label="@string/title_activity_kitchen_sink" >
+        </activity>
+        <activity
+            android:name=".EditTextActivity"
+            android:label="@string/title_activity_edit_text_acivity" >
+        </activity>
+        <activity
+            android:name=".CheckboxActivity"
+            android:label="@string/title_activity_checkbox" >
+        </activity>
+        <activity
+            android:name=".RadioButtonActivity"
+            android:label="@string/title_activity_radio_button" >
+        </activity>
+    </application>
+
+</manifest>

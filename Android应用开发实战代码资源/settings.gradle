@@ -1,0 +1,1 @@
+include ':l2.helloworld', ':l3.lifecircle', ':l4.views', ':l5.resources', ':l6.listbasedview', ':l7.menus', ':l8.intents', ':l9.fragments', ':l9.fragments_maps', ':l9.fragments_tabs', ':l10.dialogs'

@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item android:id="@+id/action_search" android:title="Search"
+        android:orderInCategory="100" app:showAsAction="ifRoom"
+        android:icon="@drawable/abc_ic_search_api_mtrl_alpha"/>
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="101" app:showAsAction="never" />
+    <item android:id="@+id/action_feedback" android:title="Feedback"
+        android:orderInCategory="102" app:showAsAction="never" />
+    <item android:id="@+id/action_about" android:title="About"
+        android:orderInCategory="103" app:showAsAction="never" />
+</menu>

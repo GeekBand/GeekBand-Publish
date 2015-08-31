@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.android.c04views.ScrollViewActivity">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView android:text="Do you ever feel like a plastic bag
+    Drifting through the wind, wanting to start again?
+    Do you ever feel, feel so paper thin
+    Like a house of cards, one blow from caving in?
+
+    Do you ever feel already buried deep six feet under?
+    Screams but no one seems to hear a thing
+    Do you know that there's still a chance for you"
+            android:textSize="70dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </ScrollView>
+</RelativeLayout>

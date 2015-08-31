@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/Alpha/tmp/android_lib/android-RuntimePermissions/Application/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="1ccbc26be2c465c622a48310e8092241b01abe80">
+        <dex dex="/Users/Alpha/tmp/android_lib/android-RuntimePermissions/Application/build/intermediates/pre-dexed/debug/classes-ac0325a70bc8b7e18e4e08f76e5834923414c275.jar" />
+    </item>
+    <item
+        jar="/Users/Alpha/tmp/android_lib/android-RuntimePermissions/Application/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/jars/libs/internal_impl-23.0.0.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
+        <dex dex="/Users/Alpha/tmp/android_lib/android-RuntimePermissions/Application/build/intermediates/pre-dexed/debug/internal_impl-23.0.0-9dc75d571e1bd5a8f4ce98e87d01c9a1af677db7.jar" />
+    </item>
+    <item
+        jar="/Users/Alpha/tmp/android_lib/android-RuntimePermissions/Application/build/intermediates/exploded-aar/com.android.support/design/23.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="8a5238e4bdcd6568b82db669d41817de670586b8">
+        <dex dex="/Users/Alpha/tmp/android_lib/android-RuntimePermissions/Application/build/intermediates/pre-dexed/debug/classes-58e7f2d5bd0f42053850f4e03ace8ce0fcd8b69c.jar" />
+    </item>
+    <item
+        jar="/Users/Alpha/Downloads/android-sdk-macosx/extras/android/m2repository/com/android/support/support-annotations/23.0.0/support-annotations-23.0.0.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="990e7f98a7bad86a40b1f0bcfeb039023afd0839">
+        <dex dex="/Users/Alpha/tmp/android_lib/android-RuntimePermissions/Application/build/intermediates/pre-dexed/debug/support-annotations-23.0.0-6de64d0b9b42d8ef0171bc32eb05a0dfd7d610ff.jar" />
+    </item>
+    <item
+        jar="/Users/Alpha/tmp/android_lib/android-RuntimePermissions/Application/build/intermediates/exploded-aar/com.android.support/support-v13/23.0.0/jars/libs/internal_impl-23.0.0.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="5d4bccb885c8a89d066ecb6c4addb553a99a79a2">
+        <dex dex="/Users/Alpha/tmp/android_lib/android-RuntimePermissions/Application/build/intermediates/pre-dexed/debug/internal_impl-23.0.0-691f54b01405b747367ac91094087181059f599d.jar" />
+    </item>
+    <item
+        jar="/Users/Alpha/tmp/android_lib/android-RuntimePermissions/Application/build/intermediates/exploded-aar/com.android.support/support-v13/23.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="bb0ac3f3ee2d71854501cc28e52cc84a20209b41">
+        <dex dex="/Users/Alpha/tmp/android_lib/android-RuntimePermissions/Application/build/intermediates/pre-dexed/debug/classes-e4605ee58aa3b1e5bc8b6aad7ffbc39369138b3f.jar" />
+    </item>
+    <item
+        jar="/Users/Alpha/tmp/android_lib/android-RuntimePermissions/Application/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
+        <dex dex="/Users/Alpha/tmp/android_lib/android-RuntimePermissions/Application/build/intermediates/pre-dexed/debug/classes-18a0430736ebc0808749e26b5c5f72986649cc69.jar" />
+    </item>
+    <item
+        jar="/Users/Alpha/tmp/android_lib/android-RuntimePermissions/Application/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="4fcf0b1879f8caf497c073e1432d398e9e2988c1">
+        <dex dex="/Users/Alpha/tmp/android_lib/android-RuntimePermissions/Application/build/intermediates/pre-dexed/debug/classes-056fc6fef6fabd54882f8cac6989333d32359494.jar" />
+    </item>
+
+</items>

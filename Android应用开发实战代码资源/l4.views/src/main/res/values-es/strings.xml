@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">l4.views</string>
+    <string name="hello_world">Hola Mundo!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_padding_margin">PaddingMarginActivity</string>
+    <string name="title_activity_relative_layout">RelativeLayout</string>
+    <string name="title_activity_scroll_view">ScrollViewActivity</string>
+    <string name="title_activity_multiple_buttons">MultipleButtons</string>
+    <string name="title_activity_kitchen_sink">KitchenSink</string>
+
+</resources>
