@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Render_Perf.iml" filepath="$PROJECT_DIR$/Render_Perf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chat_overdraw/chat_overdraw.iml" filepath="$PROJECT_DIR$/chat_overdraw/chat_overdraw.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chat_overdraw_optimized/chat_overdraw_optimized.iml" filepath="$PROJECT_DIR$/chat_overdraw_optimized/chat_overdraw_optimized.iml" />
+      <module fileurl="file://$PROJECT_DIR$/clipRect/clipRect.iml" filepath="$PROJECT_DIR$/clipRect/clipRect.iml" />
+      <module fileurl="file://$PROJECT_DIR$/clipedRect/clipedRect.iml" filepath="$PROJECT_DIR$/clipedRect/clipedRect.iml" />
+      <module fileurl="file://$PROJECT_DIR$/comparing_layout/comparing_layout.iml" filepath="$PROJECT_DIR$/comparing_layout/comparing_layout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flattened_hierarchy/flattened_hierarchy.iml" filepath="$PROJECT_DIR$/flattened_hierarchy/flattened_hierarchy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/render_layout/render_layout.iml" filepath="$PROJECT_DIR$/render_layout/render_layout.iml" />
+    </modules>
+  </component>
+</project>

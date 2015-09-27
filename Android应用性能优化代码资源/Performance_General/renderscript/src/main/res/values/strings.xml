@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">RenderScript</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_sample_recognizer">SampleRecognizer</string>
+
+    <string name="btn_txt_recordref">Record reference sample</string>
+    <string name="btn_txt_record">Record and search for reference</string>
+    <string name="btn_stop">Stop</string>
+    <string name="find_reference">Find reference signal</string>
+    <string name="ref_signal_found">Reference signal found</string>
+    <string name="ref_signal_not_found">Reference signal not found</string>
+    <string name="text_recording">Recording</string>
+    <string name="text_recordingref">Recording reference</string>
+    <string name="text_idle">Idle</string>
+    <string name="text_na">N/A</string>
+    <string name="title_activity_gray_scale">GrayScaleActivity</string>
+
+    <string name="action_grayscale">Grayscale image</string>
+    <string name="action_blur">Blur image</string>
+    <string name="action_next">Next image</string>
+    <string name="action_reset">Reset image</string>
+    <string name="title_activity_compute">ComputeActivity</string>
+    <string name="title_activity_saturation">SaturationActivity</string>
+</resources>

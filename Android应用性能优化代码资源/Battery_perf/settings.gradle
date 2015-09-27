@@ -1,0 +1,1 @@
+include ':app', ':wait_for_power_optimized', ':wait_for_power', ':wake_locks', ':wake_locks_optimized', ':wait_for_wifi', ':wait_for_wifi_optimzied'

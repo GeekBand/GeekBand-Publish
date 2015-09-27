@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="runAll">Run Tests</string>
+    <string name="running">Running&#x2026;</string>
+    <string name="app_name">MultiThread_Sync</string>
+    <string name="garbageCollection">Garbage collection between tests</string>
+    <string name="methodTracing">Method tracing</string>
+    <string name="nativeTracing">Native tracing</string>
+    <string name="uiThread">Run tests in UI thread</string>
+    <string name="delay">Delay between tests</string>
+    <string name="recursiveFasterOnly">Run recursiveFaster tests only</string>
+    <string name="resultDialogTitle">Results</string>
+</resources>

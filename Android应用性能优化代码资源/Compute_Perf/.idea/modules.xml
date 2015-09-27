@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Compute_Perf.iml" filepath="$PROJECT_DIR$/Compute_Perf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/batch_cache/batch_cache.iml" filepath="$PROJECT_DIR$/batch_cache/batch_cache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/batch_cache_optimized/batch_cache_optimized.iml" filepath="$PROJECT_DIR$/batch_cache_optimized/batch_cache_optimized.iml" />
+      <module fileurl="file://$PROJECT_DIR$/block_ui/block_ui.iml" filepath="$PROJECT_DIR$/block_ui/block_ui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/block_ui_optimized/block_ui_optimized.iml" filepath="$PROJECT_DIR$/block_ui_optimized/block_ui_optimized.iml" />
+      <module fileurl="file://$PROJECT_DIR$/container/container.iml" filepath="$PROJECT_DIR$/container/container.iml" />
+      <module fileurl="file://$PROJECT_DIR$/container_optimized/container_optimized.iml" filepath="$PROJECT_DIR$/container_optimized/container_optimized.iml" />
+    </modules>
+  </component>
+</project>

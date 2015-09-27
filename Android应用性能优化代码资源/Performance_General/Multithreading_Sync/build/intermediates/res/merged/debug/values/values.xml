@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/Alpha/tmp/android_lib/Performance_Tips/Multithreading_Sync/src/main/res/values/integer.xml -->
+    <eat-comment/>
+    <item format="integer" name="defaultN" type="integer">10000</item>
+    <item format="integer" name="delayBetweenTests" type="integer">2000</item>
+    <item format="integer" name="recursionThreshold" type="integer">41</item>
+    <!-- From: file:/Users/Alpha/tmp/android_lib/Performance_Tips/Multithreading_Sync/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">MultiThread_Sync</string>
+    <string name="delay">Delay between tests</string>
+    <string name="garbageCollection">Garbage collection between tests</string>
+    <string name="methodTracing">Method tracing</string>
+    <string name="nativeTracing">Native tracing</string>
+    <string name="recursiveFasterOnly">Run recursiveFaster tests only</string>
+    <string name="resultDialogTitle">Results</string>
+    <string name="runAll">Run Tests</string>
+    <string name="running">Running…</string>
+    <!-- From: file:/Users/Alpha/tmp/android_lib/Performance_Tips/Multithreading_Sync/src/main/res/values/integer.xml -->
+    <eat-comment/>
+    <string name="toto">Toto</string>
+    <!-- From: file:/Users/Alpha/tmp/android_lib/Performance_Tips/Multithreading_Sync/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="uiThread">Run tests in UI thread</string>
+</resources>

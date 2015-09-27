@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="integer" name="delayBetweenTests" format="integer">2000</item>
+    <item type="integer" name="defaultN" format="integer">10000</item>
+    <item type="integer" name="recursionThreshold" format="integer">41</item>
+    <string name="toto">Toto</string>
+</resources>

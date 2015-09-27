@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Battery_perf.iml" filepath="$PROJECT_DIR$/Battery_perf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wait_for_power/wait_for_power.iml" filepath="$PROJECT_DIR$/wait_for_power/wait_for_power.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wait_for_power_optimized/wait_for_power_optimized.iml" filepath="$PROJECT_DIR$/wait_for_power_optimized/wait_for_power_optimized.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wait_for_wifi/wait_for_wifi.iml" filepath="$PROJECT_DIR$/wait_for_wifi/wait_for_wifi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wait_for_wifi_optimzied/wait_for_wifi_optimzied.iml" filepath="$PROJECT_DIR$/wait_for_wifi_optimzied/wait_for_wifi_optimzied.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wake_locks/wake_locks.iml" filepath="$PROJECT_DIR$/wake_locks/wake_locks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wake_locks_optimized/wake_locks_optimized.iml" filepath="$PROJECT_DIR$/wake_locks_optimized/wake_locks_optimized.iml" />
+    </modules>
+  </component>
+</project>

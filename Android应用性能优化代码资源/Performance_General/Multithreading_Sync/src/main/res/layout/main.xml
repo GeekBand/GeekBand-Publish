@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <CheckBox android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/gcCheckBox" android:text="@string/garbageCollection"></CheckBox>
+    <CheckBox android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/delayCheckBox" android:text="@string/delay"></CheckBox>
+    <CheckBox android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/methodTracingCheckBox" android:text="@string/methodTracing"></CheckBox>
+    <CheckBox android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/nativeTracing" android:id="@+id/nativeTracingCheckBox"></CheckBox>
+    <CheckBox android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/uiThreadCheckBox" android:text="@string/uiThread"></CheckBox>
+    <CheckBox android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/recursiveFasterCheckBox" android:text="@string/recursiveFasterOnly"></CheckBox>
+    <EditText android:layout_height="wrap_content" android:layout_width="fill_parent" android:inputType="number" android:id="@+id/number"/>
+
+    <Button android:onClick="onClickButton" android:layout_height="wrap_content" android:id="@+id/runTestsButton" android:text="@string/runAll" android:layout_width="fill_parent"></Button>
+</LinearLayout>
